@@ -1,0 +1,95 @@
+body {
+    background-image: url('/images/Sfondo viaggi 1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg: #121212;
+    --accent-color: #00aaff;
+    --hover-color: #0077cc;
+    --text-color: #f1f1f1;
+    --dark-gray: #1c1c1c;
+}
+
+body {
+    margin: 0;
+
+    color: var(--text-color);
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    background: var(--dark-gray);
+    border-bottom: 2px solid var(--accent-color);
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.2);
+}
+
+.navbar-brand {
+    color: var(--accent-color);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand img {
+    height: 35px;
+}
+
+.nav-link {
+    color: var(--accent-color) !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--hover-color) !important;
+    text-shadow: 0 0 5px var(--hover-color);
+}
+
+.dropdown-menu {
+    background-color: #1a1a1a;
+    border: none;
+}
+
+.dropdown-item {
+    color: var(--accent-color);
+}
+
+.dropdown-item:hover {
+    background-color: #2b2b2b;
+    color: var(--hover-color);
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.icon-link img {
+    height: 24px;
+
+}
+
+.btn-custom {
+    background-color: var(--accent-color);
+    color: #000;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+}
+
+.logo img {
+    width: 15%;
+}
